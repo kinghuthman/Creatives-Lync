@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import eyeGif from "../assets/gifs/Eye-Animation_Final_WhiteBG copy.gif";
 import "./homepage.styles.css";
 
