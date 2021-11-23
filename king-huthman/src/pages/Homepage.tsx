@@ -7,7 +7,7 @@ function HomePage() {
     <div className="homeContainer">
       {/* <h2>Looking to ask a question or work together?</h2>
       <h3>Email me at kinghuthman@gmail.com</h3> */}
-      <img className="eye" src={eyeGif} alt="loading..." />
+      <img className="eye" src={eyeGif} alt="eye gif" />
     </div>
   );
 }
