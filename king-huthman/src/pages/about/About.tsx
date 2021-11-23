@@ -1,12 +1,12 @@
 import React from "react";
-import eyeGif from "../assets/gifs/Eye-Animation_Final_WhiteBG copy.gif";
+import aboutImage from "../../assets/images/huff-web.jpg";
 import "./about.styles.css";
 
 function HomePage() {
   return (
     <div className="aboutContainer">
       <div className="aboutParagraphContainer">
-        <p className="aboutParagraph">
+        <p className="aboutParagraphText">
           Duis ullamcorper nec diam sit amet suscipit. Quisque eget tincidunt
           augue, sed tristique nisl. Nullam a risus ut sem lobortis lacinia sit
           amet at nisi. Duis quis facilisis lacus. Nullam dictum a ante quis
@@ -16,7 +16,7 @@ function HomePage() {
           suscipit nibh vel, fringilla dolor. Suspendisse mollis urna id diam
           eleifend semper.
         </p>
-        <p className="aboutParagraph">
+        <p className="aboutParagraphText">
           In elementum lorem leo, quis volutpat magna auctor egestas. Proin
           porta orci at euismod ornare. Sed ornare ultricies urna sed egestas.
           Maecenas luctus dui ac leo feugiat, et egestas lorem eleifend. Cras
@@ -29,10 +29,7 @@ function HomePage() {
           scelerisque libero, nec placerat tellus ex id libero.
         </p>
       </div>
-
-      <h2> IMAGE PLACEHOLDER</h2>
-
-      {/* <img className="eye" src={eyeGif} alt="loading..." /> */}
+      <img className="image" src={aboutImage} alt="loading..." />
     </div>
   );
 }
