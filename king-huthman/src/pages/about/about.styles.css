@@ -1,0 +1,19 @@
+.aboutContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.aboutParagraph {
+  width: 35vw;
+  margin-right: 5rem;
+  text-indent: 1em;
+}
+
+.aboutParagraphContainer {
+  display: flex;
+  flex-direction: column;
+}
