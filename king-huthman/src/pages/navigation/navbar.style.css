@@ -10,17 +10,18 @@
   display: flex;
   /* top: 100; */
   justify-content: space-between;
+  margin-top: 1.5rem;
   /* margin-left: 20rem; */
-  margin: 1.5rem;
+  /* margin: 1.5rem; */
 }
 
 .title {
-  /* margin-right: 10rem; */
+  margin-left: 2rem;
 }
 
 .links {
   display: flex;
   justify-content: space-evenly;
   width: 45%;
-  margin-right: 3rem;
+  margin-right: 1rem;
 }
